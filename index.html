@@ -10,9 +10,27 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/destaques.css">
     <link rel="stylesheet" href="assets/css/populares.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
 </head>
 <body class="app">
-    <header class="cabecalho">cabeçalho</header>
+    <header class="cabecalho"><nav class="menu">
+        <ul class="menu__lista">
+            <li class="menu__item">
+                <a class="menu__link ativo" href="#">
+                    <i class="fas fa-home"></i>
+                    Início
+                </a>
+                <a class="menu__link" href="#">
+                    <i class="fas fa-mobile-alt"></i>
+                    Aplicativos</a>
+                <a class="menu__link" href="#">
+                    <i class="fas fa-gamepad"></i>
+                    Jogos
+                </a>
+            </li>
+        </ul>
+    </nav></header>
     <main class="conteudo">
         <section class="destaques">
             <div class="destaques__principal caixa">
@@ -366,7 +384,14 @@
             </div>
         </section>
     </main>
-    <footer class="rodape">rodape</footer>
+    <footer class="rodape">    
+        <h4>Felipe Silveira &copy; 2022</h4>
+        <ul class="socials">
+            <li><a href="https://github.com/felipegaldy/"><i class="fa fa-github"></i></a></li>
+            <li><a href="mailto:felipe.silveira4@fatec.sp.gov.br"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCDxlSlo_Ukc8Mgl9hieZGZQ"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/felipesilveirasp/"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul></footer>
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 </html>

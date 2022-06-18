@@ -7,20 +7,51 @@
     "conteudo"
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
 }
 
 .cabecalho {
-    background-color: aquamarine;
+    align-items: center;
     grid-area: cabecalho;
+    display: flex;
+    padding: 0 2rem;
 }
 
 .conteudo {
-    background-color: azure;
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
-    background-color: brown;
+    background-color: #222;
+    color: white;
+    font-size: .8rem;
     grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
 }
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    }
+.socials li{
+    margin: 0 10px;
+    }
+    .socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    }
+    .socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+    }
+    .socials a:hover i{
+        text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px gray;
+    }
