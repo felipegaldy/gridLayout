@@ -14,8 +14,7 @@
     display: grid;
     grid-template-areas: 
     "card-imagem"
-    "card-corpo"
-    ;
+    "card-corpo";
     grid-template-columns: 100%;
 }
 .populares__card:last-child{
